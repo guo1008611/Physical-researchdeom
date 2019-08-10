@@ -43,7 +43,7 @@ public class RedisJsonTest {
 	@Test
 	public void test_insert() {
 		List<Bean> employees = new ArrayList<Bean>();
-		// 随机生成1万个数据
+		// 随机生成1万个数据ddd
 		for (int i = 1; i < 100000; i++) {
 			employees.add(new Bean(i, StringUtil.generateChineseName() + StringUtil.randomChineseString(2),
 					"13" + RandomUitl.randomString(9), StringUtil.randomChineseString(10)));
